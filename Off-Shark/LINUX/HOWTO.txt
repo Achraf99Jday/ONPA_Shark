@@ -1,0 +1,23 @@
+--------------------------------------------------------------------------------------------------------------------------
+                                                        HOW TO 
+--------------------------------------------------------------------------------------------------------------------------
+
+LINUX: 
+    Prérequis:
+    - Pyhton 3
+
+    Utilisation:
+    - Lancer le Off-Shark.py par le biais de votre terminal 
+    - Celui-ci affichera un message vous demandant de taper le nom du fichier de votre trame ou le chemin dans lequel est stocké celui-ci (exemple: trame.txt ou ./test/trame.txt)
+    - Après avoir entrer l'analyseur affichera sur le terminal le résultat de son analyse et le stockera dans un fichier texte nommé "result.txt" qui sera créer si inexistant 
+    - Le fichier "result.txt" sera remis à zero avec les nouveaux résultats de chaque analyse de .txt contenant des trames . 
+    - Il est donc conseiller de le déplacer dans un autre dossier si vous souhaitez conserver les résultat de votre analyse avant une nouvelle réutilisation de l'analyseur.
+
+WINDOWS:
+    Utilisation:
+    - Lancer le Off-Shark.exe
+    - Celui-ci affichera un message vous demandant de taper le nom du fichier de votre trame ou le chemin dans lequel est stocké celui-ci (exemple: trame.txt ou ./test/trame.txt)
+    - Après avoir entrer l'analyseur affichera sur le terminal le résultat de son analyse et le stockera dans un fichier texte nommé "result.txt" qui sera créer si inexistant 
+    - En cas d'erreur l'application se fermera et stockera le message d'erreur dans un fichier "log.txt"
+    - Le fichier "result.txt" et "log.txt" sont remis à zero avec les nouveaux résultats de chaque analyse de .txt contenant des trames . 
+    - Il est donc conseiller de les déplacer dans un autre dossier si vous souhaitez les conserver avant une nouvelle réutilisation de l'analyseur.
